@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+  }
+  
+  :root {
+    --bg: #e0f7fa;
+    --text: #333;
+    --card: white;
+  }
+  
+  .dark-mode {
+    --bg: #1e1e1e;
+    --text: #f1f1f1;
+    --card: #2a2a2a;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .theme-refresh {
+    margin-top: 1rem;
+  }
+  
+  button {
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0277bd;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 60%;
+  }
+  
+  .weather-card {
+    background: var(--card);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .weather-card img {
+    width: 60px;
+  }
+  
+  .flag {
+    width: 50px;
+    margin: 0.5rem 0;
+  }
+  
+  .temp {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .details div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .details img {
+    width: 40px;
+  }
+  
+  .loader {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .history {
+    margin-top: 2rem;
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history li {
+    padding: 0.3rem;
+    cursor: pointer;
+    color: #0288d1;
+  }
+  
