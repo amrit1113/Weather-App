@@ -1,3 +1,4 @@
+Live Demo-https://graceful-tiramisu-8c1dc4.netlify.app/
 # ⛅ Weather App
 
 A simple and responsive *Weather App* that allows users to search for real-time weather updates by city. Built using *HTML, **CSS, and **JavaScript*, it fetches live weather data from a public API and displays it in a clean, user-friendly interface.
